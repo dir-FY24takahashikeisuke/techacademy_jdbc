@@ -41,7 +41,7 @@ public class DbConnectSample03 {
             System.out.println("<検索キーワードを入力してください>");
             String input = keyIn();
             
-            String sql = "SELECT * FROM country WHERE Name = '" + input +"'";
+            String sql = "SELECT * FROM country WHERE Name = '" + input + "'";
             rs = stmt.executeQuery(sql);
 
             // 6. 結果を表示する
